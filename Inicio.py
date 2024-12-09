@@ -17,7 +17,7 @@ if inp_txt:
 
 
     if st.button ("Próximo"):
-        st.switch_page("Pages/1_Cadastro.py") 
+        st.switch_page("pages/1_Cadastro.py") 
 
 st.sidebar.image("https://i.imgur.com/PPJ1vF0.png")
         

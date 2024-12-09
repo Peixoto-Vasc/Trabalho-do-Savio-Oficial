@@ -28,7 +28,7 @@ if st.button("Cadastrar"):
         else:
             cadastrar_usuario(nome, email, senha)
             st.success(f"Cadastro realizado com sucesso! Bem-vindo, {nome}!")
-            st.switch_page("Pages/2_Formulário.py")           
+            st.switch_page("pages/2_Formulário.py")           
     else:
         st.error("Por favor, preencha todos os campos!")
   

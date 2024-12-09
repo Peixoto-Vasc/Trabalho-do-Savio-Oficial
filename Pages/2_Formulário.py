@@ -15,7 +15,7 @@ if input_button_submit:
     st.write(f'Graduação: {input_occupation}')
     st.write(f'Curso: {input_curso}')
 if st.button ("Próximo"):
-    st.switch_page("Pages/3_Atividades.py") 
+    st.switch_page("pages/3_Atividades.py") 
 
 
 st.sidebar.image("https://i.imgur.com/PPJ1vF0.png")

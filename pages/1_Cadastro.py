@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pd
+import pandas as pdgi
 
 with open("style_cadastro.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
